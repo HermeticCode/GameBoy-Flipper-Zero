@@ -1,4 +1,4 @@
-# flipper-gbemu
+# GameBoy-Flipper-Zero
 
 **A pure Flipper Zero Game Boy emulator written from scratch (no external dev board required). Open-source, educational, and designed for the Flipper’s internal hardware!**
 
@@ -21,15 +21,15 @@
 
 1. **Clone this repo:**
     ```bash
-    git clone https://github.com/yourname/flipper-gbemu.git
+    git clone https://github.com/HermeticCode/GameBoy-Flipper-Zero.git
     ```
-2. **Set up Flipper SDK:**  
-   [Flipper Zero Docs](https://docs.flipperzero.one/devtools/dev-qflipper/installation)
+2. **Set up the Flipper Zero SDK:**  
+   [Flipper Zero Developer Documentation](https://docs.flipperzero.one/devtools/dev-qflipper/installation)
 
 3. **Build and flash to Flipper:**
     ```bash
     ./fbt
-    ./fbt launch_app APPSRC=applications_user/flipper-gbemu
+    ./fbt launch_app APPSRC=applications_user/GameBoy-Flipper-Zero
     ```
 
 4. **Load ROM:**  
@@ -58,9 +58,13 @@
 
 ## License
 
-MIT License (see [LICENSE](LICENSE) file).
+This project is licensed under the terms of the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
 
 ---
+
+**Note:**  
+No copyrighted ROMs are distributed or accepted.
+
 
 **Note:**  
 No copyrighted ROMs are distributed or accepted.
