@@ -1,0 +1,7 @@
+GameBoy-Flipper-Zero/
+├── .gitignore
+├── LICENSE
+├── README.md
+├── CMakeLists.txt
+└── src/
+    └── main.c
