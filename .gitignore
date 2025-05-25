@@ -1,33 +1,12 @@
-# General
 *.o
 *.a
 *.so
 *.swp
 *~
-
-# Flipper build artifacts
 build/
 dist/
 *.elf
 *.bin
 *.hex
-
-# OS cruft
 .DS_Store
 Thumbs.db
-
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
