@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.13)
+project(GameBoy-Flipper-Zero C)
+
+set(SOURCE_FILES
+    src/main.c
+    # Add additional source files here as you expand
+)
+
+add_flipper_app(GameBoy-Flipper-Zero "${SOURCE_FILES}")
