@@ -1,40 +1,21 @@
-# Prerequisites
-*.d
-
-# Object files
+# General
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
 *.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
 *.so
-*.so.*
-*.dylib
+*.swp
+*~
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
+# Flipper build artifacts
+build/
+dist/
+*.elf
+*.bin
 *.hex
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
 
 # Debug files
 *.dSYM/
